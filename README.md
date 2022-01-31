@@ -7,7 +7,7 @@
 ## LS74163 Counter
 ###### This project replicates the LS74163 Counter IC and provides both a Register Transfer Language version and Gate-Level version created by Yosys. The counter does not require any hierarchical modules to run.
 ## Elevator
-###### This project represents the logic of an elevator on a 3-story building. It simulates button presses in order to call the elevator to a certain floor and allows the users to operate the elevator, going through each floor sequentially. No hierarchical modules are required for this program.
+###### This project represents the logic of an elevator on a 3-story building. It simulates button presses in order to call the elevator to a certain floor and allows the users to operate the elevator, going through each floor sequentially. Includes is the hierarchical `sr.v` which represents an SR-latch.
 ## Traffic Light Controller
 ###### The traffic light controller simulates the function of a traffic light with induction loop detectors. It enforces that all lights must be red before allowing a change in flow of traffic. Timing windows are also enforced to prevent traffic backups on particular routes. Included are all parts of the process from conceptualization to implementation. This project does not require any hierarchical files.
 ## USB Interface

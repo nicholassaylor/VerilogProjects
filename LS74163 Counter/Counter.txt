@@ -1,0 +1,8 @@
+QD* = (!QD&QC&QB&QA) | (QD&!QA) | (QD&!QC) | (QD&!QB);
+
+QC* = (!QC&QB&QA) | (QC&!QB) | (QC&!QA);
+
+QB* = (!QB&QA) | (QB&!QA);
+
+QA* = (!QA);
+
